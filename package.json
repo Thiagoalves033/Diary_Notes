@@ -8,8 +8,8 @@
     "start": "npm run start:prod",
     "start:prod": "node ./dist/src/app.js",
     "start:dev": "tsx watch app.ts",
-    "test": "vitest --verbose",
-    "test:cov": "vitest --verbose --coverage"
+    "test": "vitest --reporter=verbose",
+    "test:cov": "vitest --reporter=verbose --coverage"
   },
   "keywords": [],
   "author": "",
@@ -22,6 +22,7 @@
     "@types/swagger-ui-express": "^4.1.6",
     "@typescript-eslint/eslint-plugin": "^7.4.0",
     "@typescript-eslint/parser": "^7.0.0",
+    "@vitest/coverage-v8": "^1.5.2",
     "eslint": "^8.2.0",
     "eslint-config-airbnb-base": "15.0.0",
     "eslint-config-airbnb-typescript": "^18.0.0",
