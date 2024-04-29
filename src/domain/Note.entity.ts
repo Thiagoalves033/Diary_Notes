@@ -1,11 +1,11 @@
-type NoteProps = {
+export type NoteProps = {
   date: Date;
   weekday: string;
   content: string;
   mood: string;
 };
 
-export default class Note {
+export class Note {
   date: Date;
 
   weekday: string;

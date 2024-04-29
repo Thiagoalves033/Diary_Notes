@@ -1,11 +1,11 @@
-type UserProps = {
+export type UserProps = {
   email: string;
   password: string;
   username: string;
   total_entries: number;
 };
 
-export default class User {
+export class User {
   email: string;
 
   password: string;
